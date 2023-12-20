@@ -1,0 +1,10 @@
+Java 14 introduces instanceof operator to have type test pattern as is a preview feature. 
+
+Type test pattern has a predicate to specify a type with a single binding variable.
+
+It continues to be a preview feature in Java 15 as well. With Java 16, this feature is now a part of standard delivery.
+
+Syntax
+if (person instanceof Employee e) {
+   return e.getEmployeeId();
+}

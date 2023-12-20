@@ -1,0 +1,12 @@
+Java 15 introduces a sealed classes as preview feature which provides a fine grained control over inheritance. 
+Java 16 provides some minor enhancements and keep this feature as Preview.
+
+Following are salient points to consider for a sealed class −
+
+-Sealed class is declared using sealed keyword.
+
+-Sealed classes allow to declare which class can be a subtype using permits keyword.
+
+-A class extending sealed class must be declared as either sealed, non-sealed or final.
+
+-Sealed classes helps in creating a finite and determinable hiearchy of classes in inheritance.

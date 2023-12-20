@@ -1,0 +1,12 @@
+Some classes, such as java.util.Optional and java.time.LocalDateTime, are value-based. 
+Such Instances of a value-based class are final and immutable. Such classes have annotation @jdk.internal.ValueBased 
+and Java 16 now generates compile time warnings in case such classes are synchronized using synchronized keyword. 
+Wrapper classes are value based. For example, Double class is a value based.
+
+Example
+package java.lang;
+@jdk.internal.ValueBased
+public final class Double extends Number
+   implements Comparable<Double>, Constable, ConstantDesc {
+   //...
+}

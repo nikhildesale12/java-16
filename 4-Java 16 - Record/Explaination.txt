@@ -1,0 +1,3 @@
+Java 14 introduces a new class type record as preview feature to facilitate creation of immutable data objects.
+Java 15 enhances record type further. 
+With Java 16, record is now a standard feature of JDK.
